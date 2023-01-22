@@ -119,7 +119,6 @@ text_scroll.pack(side=RIGHT,fill=Y)
 
 #Text box
 in_text=Text(frame,width=100,height=20,font=my_font,selectbackground="blue",selectforeground="white",undo=True,yscrollcommand=text_scroll.set)
-in_text.resizable(0,0)
 in_text.pack()
 
 #Configuring scroll bar
